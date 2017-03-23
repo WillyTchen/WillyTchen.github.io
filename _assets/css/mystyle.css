@@ -1,0 +1,254 @@
+/* William Tchen, Period 4, Web Design and Development I 
+
+Color scheme for this website:
+     #000000 - Black
+     #FFBE22 - Darker Yellow
+     #FF832F - Lighter Yellow
+     #E8531F - Lighter Orange
+     #E84C1F - Darker Orange
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+	article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+CSS Reset by meyerweb 
+*/
+
+body {
+	font-size: 1em;
+	font-weight: normal;
+	font-family: "Roboto", Sabon, Minion, Serif;
+	color: #FFBE22; 
+	text-align: left;
+	margin: 0 auto;
+	padding: 0.5em;
+	width: 70%;
+	min-width: 720px;
+	background-image: url("http://www.startwithabook.org/sites/default/files/themes_nightsky.jpg");
+}
+
+h1 {
+	font-weight: bold;
+	color: #FF832F; 
+	text-align: center;
+	margin: 0.5em;
+	padding: 0.5em;
+	text-shadow: 2px 2px 2px orange;
+}
+
+h2 {
+	font-weight: bold;
+	color: #E8531F;
+	text-align: center;
+	margin: 1em;
+	padding: 1em;
+}
+
+div {
+	font-size: 1em;
+	font-weight: normal;
+	width: 90%;
+	margin: 1em;
+	padding: 0.5em;
+	border: 1px solid orange;
+	box-shadow: 4px 4px 4px orange;
+}
+
+p {
+	font-size: 1em;
+	font-weight: normal;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+h1, h2, h3 {
+	font-family: Verdana, Geneva, "Dejavu Sans", Sans-serif;
+}
+
+ul {
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+li {
+	font-size: 1em;
+	font-weight: normal;
+	padding: 0.5em;
+	margin: 0.25em;
+}
+
+a {
+	color: #FFBE22;
+	background-color: #000000;
+}
+
+a:hover, a:focus {
+	color: #000000;
+	background-color: #FFBE22;
+}
+
+table {
+	border: 2px solid orange;
+	padding: 0.5em;
+}
+
+td {
+	border: 2px solid orange;
+	padding: 0.5em;
+}
+
+th {
+	color: orange;
+}
+
+caption {
+	color: orange;
+	font-weight: bold;
+}
+
+img {
+	margin: 0.5em;
+}
+
+#t {
+	text-align: left;
+}
+
+/* navigation menu styles */
+
+nav {
+	clear: left;
+	padding: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a { 
+  padding: 0.25em 1em;
+  text-decoration: none; /* no underline */
+  background-color: #FFBE22; /* yellow */
+  color: #E84C1F; /* orange */
+  border: 2px solid black;
+  border-top-left-radius: 1em 1em; /* rounded corner! */
+  border-top-right-radius: 1em 1em; /* another rounded corner! */	
+}	
+
+nav ul li a:hover, nav ul li a:focus { 
+  color: black; 
+  background-color: white; 
+}
+
+/* id and class selectors */
+
+#skipnav {
+	width: 10em;
+	top: 5px;
+	left: 5px;
+	right: 12.5%;
+	position: relative;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.info {
+	width: 40%;
+	font-size: 1.2em;
+	float: left;
+	background-color: #FFFFFF;
+	margin-left: 1.5em;
+}
+
+.temp {
+	font-style: italic;
+}
+
+#main {
+	color: #E84C1F;
+	clear: left;
+	padding: 1em;
+	background-color: #FFFFFF;
+}
+
+#main p {
+	margin-left: 2em;
+}
+
+#overview {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+#overview:first-letter {
+	font-size: 1.2em;
+	font-family: Helvetica;
+}
+
+button { 
+    font-size: 1.1em;
+    background-color: #FFBE22;
+    color: #E84C1F;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+    font-family: "Roboto";
+  }
+
+button:hover, button:focus, button:active { 
+    /* swap colors */
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer; /* displays a hand */
+  }
+
+ #clock { 
+      padding: 1.25em;
+      background-color: #FFFFFF;
+      width: 15%;
+      margin: 0 auto;
+      margin-top: 2em;
+      font-family: "Century Gothic";
+      display: none;
+    }
